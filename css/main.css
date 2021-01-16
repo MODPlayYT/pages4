@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+.section-users {
+	padding: 30px 0;
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+.section-title{
+	margin-bottom: 30px;
+}
+.user {
+	display: flex;
+	align-items: flex-start;
+}
+.user__data {
+	transition: all 0.5s ease;
+}
+.user:hover .user__data{
+	transform: translateX(25px);
+}
+.user:not(:last-of-type) {
+	margin-bottom: 50px;
+}
+
+.user__avatar {
+	margin-right: 25px;
+	transition: all 0.5s ease;
+}
+.user:hover .user__avatar {
+	transform: scale(1.2);
+}
